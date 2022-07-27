@@ -1,3 +1,7 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 .orange{
     color:#E76F51;
 }
@@ -9,6 +13,34 @@
     outline-color:#f1a592;
 }
 
+.t-color{
+    color: #E0E0E0;
+}
+.t2-color{
+    color: #6C6C6C;
+}
+.t3-color{
+    color: #23A6F0;
+}
+
 .gray-imgs {
     filter: grayscale(100%);
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .box{
+    width: 550px;
+    
+  }
+
+  @media only screen and (max-width: 575px) {
+    .box{
+        width: 400px;
+    }
+  }
