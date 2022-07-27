@@ -1,0 +1,14 @@
+.orange{
+    color:#E76F51;
+}
+.b-orange{
+    background-color:#E76F51;
+}
+.out-orange{
+    outline-style: solid;
+    outline-color:#f1a592;
+}
+
+.gray-imgs {
+    filter: grayscale(100%);
+}
